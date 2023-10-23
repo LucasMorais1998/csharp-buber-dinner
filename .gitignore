@@ -1,0 +1,78 @@
+# Arquivos temporários
+*~
+
+# Arquivos do Visual Studio
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+project.lock.json
+artifacts/
+
+# Pasta bin e obj
+bin/
+obj/
+
+# Arquivos de compilação
+*.dll
+*.exe
+*.pdb
+*.dll.mdb
+*.exe.mdb
+
+# Cache de usuário e arquivos temporários
+[Tt]humbs.db
+*.log
+*.log.*
+*.VisualState.xml
+*.user
+*.userosscache
+*.suo
+*.user
+*.suo
+*.ide
+
+# Cache do ReSharper
+_ReSharper*/
+*.suo
+*.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.suo
+*.user
+*.suo
+*.suo
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code folders
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
