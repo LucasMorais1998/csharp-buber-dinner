@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BuberDinner.Domain\BuberDinner.Domain.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
   </ItemGroup>
 
 </Project>
