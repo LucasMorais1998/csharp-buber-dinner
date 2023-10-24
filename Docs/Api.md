@@ -21,10 +21,10 @@ POST {{host}}/auth/register
 
 ```json
 {
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john_doe@email.com",
-    "password": "password"
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john_doe@email.com",
+  "password": "password"
 }
 ```
 ### Register Response
@@ -34,11 +34,11 @@ POST {{host}}/auth/register
 ```
 ```json
 {
-    "id": "",
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john_doe@email.com",
-    "token": ""
+  "id": "57f79380-3556-4c0e-8545-7daa5369ca5c",
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john_doe@email.com",
+  "token": "token"
 }
 ```
 
@@ -52,8 +52,8 @@ POST {{host}}/auth/login
 
 ```json
 {
-    "email": "john_doe@email.com",
-    "password": "password"
+  "email": "john_doe@email.com",
+  "password": "password"
 }
 ```
 
@@ -64,6 +64,10 @@ POST {{host}}/auth/login
 ```
 ```json
 {
-
+  "id": "e1c9cd08-5fdb-4d71-9a94-1c7ff1aa2aa7",
+  "firstName": "firstName",
+  "lastName": "lastName",
+  "email": "john_doe@email.com",
+  "token": "token"
 }
 ```
